@@ -44,6 +44,7 @@ h2 {
 
 h3 {
     font-size: 24px;
+    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1600 - 320))); 
     margin-top: 48px;
     margin-bottom: 20px;
     line-height: 1.2;
