@@ -5,12 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
-	<title>Contact | Maud Sadoc Web Designer</title>
-	<meta name="description" content="Helping businesses of every size and type get the most from digital platforms.">
+	<title>Portfolio | Maud Sadoc Web Designer</title>
+	<meta name="description" content="I use HTML and CSS with graphic design and animation to bring your ideas to life.">
 	
     <link href="../assets/css/resets.css" rel="stylesheet">
-    <link href="../assets/css/menus.css" rel="stylesheet">
-    <link href="../assets/css/header.css" rel="stylesheet">    
+    <link href="../assets/css/menus.css" rel="stylesheet">  
+    <link href="../assets/css/header.css" rel="stylesheet">
 	<link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/footer.css" rel="stylesheet">
 
@@ -24,12 +24,12 @@
 </head>
 
 
-<body class="bg-light-slate">
+<body>
 
-     <!-- Begin desktop menu -->
+    <!-- Begin desktop menu -->
     <div class="container-menu-desktop menu-dark menu-sticky">
         <!-- first child item -->
-        <a href="../index.html"><img src="../assets/img/logo.png" alt="website logo"></a>
+        <a href="../index.html"><img src="../assets/img/website-logo.png" alt="website logo"></a>
         <!-- second child item -->
         <ul>
             <li><a href="../index.html">Home</a></li>
@@ -43,7 +43,7 @@
     <!-- Begin mobile menu bar -->
     <div class="container-menu-bar-mobile menu-dark menu-sticky">
             <!-- first child -->
-            <a href="../index.html"><img src="../assets/img/logo.png" alt="website logo"></a>
+            <a href="#"><img src="../assets/img/website-logo.png" alt="website logo"></a>
             <!-- second child -->
             <div class="item-icon">
                 <div class="bar1"></div>
@@ -58,14 +58,14 @@
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../portfolio/index.html">Portfolio</a></li>
-            <li><a href="../contact/index.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href="../contact/index.html" class="btn-cta"><i class="fas fa-shopping-cart"></i> Contact</a></li>
         </ul>
 
         <hr>
         <h4>About Me</h4>
         <div class="fly-out-profile-box">
-            <img src="../assets/img/pdp.jpg" alt="Maud Sadoc digital student, Paris">
-            <p>Hi, I'm <b>Maud Sadoc</b>, a digital student based in Paris, France.</p>
+            <img src="../assets/img/profile-pic.jpg" alt="Mary Smith, web designer, Dublin">
+            <p>Hi, I'm <b>Maud Sadoc</b>, a web and digital designer based in Dublin, Ireland.</p>
         </div>
    
         <h4>Contact</h4>
@@ -84,72 +84,62 @@
     </div>
     <!-- End mobile menu slide-out options -->
 
-    <!-- Begin hero block -->
-    <div class="hero-block-two-columns unhide-content-under-sticky-menu">
+     <!-- Begin hero block -->
+     <div class="hero-block-two-columns unhide-content-under-sticky-menu">
         <div class="item-2 fade-in">
-            <h1>Realise your digital potential</h1>
-            <h2>Helping <b>businesses</b> of every size and type get the most from <b>digital platforms</b>.</h2>
+            <h1>Welcome to my work</h1>
+            <h2>I use <b>HTML</b> and <b>CSS</b> with <b>graphic design</b> and <b>animation</b> to bring your ideas to life.</h2>
+            <div class="container-btn text-center-desktop text-center-mobile">
+                <a href="../contact/index.html" class="btn btn-rounded btn-gradient"><i class="fas fa-arrow-right"></i> Contact</a>
+            </div>
         </div>
         <div class="item-2 fade-in">
-            <img src="../assets/img/colleagues.jpg" alt="hero image">
+            <img src="../assets/img/portfolio-pic.jpg" alt="hero image">
         </div>
-        
     </div>
     <!-- End hero block -->
 
-    <!-- Begin container for contact form -->
-        
-    <div class="container-contact-form">
-        <h3>Get in touch</h3>
-        <p>Use the form below to let me know a little more about your objectives and I'll get back to you.</p>
-        
-        <!-- Contact form starts here -->
-        <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/f/xleajaag">
-
-            <!-- Begin contact form fields -->
-
-            <div class="flex-row">
-                <div class="item-name">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="name" id="full-name" placeholder="Your First and Last Name here." required>
-                </div>
-                <div class="item-email">
-                    <label for="email-address">Email</label>
-                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address here." required>
-                </div>
+	<div class="container-flexbox bg-light-slate ">
+         <div class="item-1">
+                <h2>Web Development Projects</h2>
+                <p>Below you can see some examples of my work from my web development and design porfolio.</p>
             </div>
+        </div><!-- End parent flexbox container -->
 
-            <div class="flex-row">
-                <div class="item-textarea">
-                    <label for="message">Message</label>
-                    <textarea rows="5" name="message" id="message" placeholder="Your Message here." required></textarea>
-                </div>
+    <div class="container-flexbox bg-light-slate ">
+		<div class="item-3">
+			<a href="van-gogh/index.html"><img src="../assets/img/project-van-gogh.png" alt="Project: Vincent Van Gogh"></a>
+			<h3>Vincent Van Gogh</h3>
+            <p>Responsive page layout with fluid typography, Google Fonts, and embedded YouTube video.</p>
+            <a href="van-gogh/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
+		</div>
 
-                <div class="item-btn">
-                    <button id="btn-submit" type="submit">Send <i class="fas fa-arrow-circle-right"></i></button> 
-                </div>
-            </div>
+        <div class="item-3">
+			<a href="smoothies/index.html"><img src="../assets/img/project-smoothie.jpg"  alt="Project: Smooth Smoothies"></a>
+			<h3>Smooth Smoothies</h3>
+            <p>Transparent images, serverless email sign-up form and JavaScript on-scroll menu effects.</p>
+            <a href="smoothies/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
+        </div>
+        
+		<div class="item-3">
+			<a href="ireland/index.html"><img src="../assets/img/project-ireland.jpg" alt="Project: Ireland Tourism"></a>
+			<h3>Ireland's Attractions</h3>
+            <p>On-page navigation with a looped background video that includes a tinted overlay.</p>
+            <a href="ireland/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
+		</div>
 
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            <!-- End contact form fields -->
+	</div><!-- End parent flexbox container -->
 
-        </form>
-        <!-- Contact form ends here -->
-
-    </div>
-    <!-- End container for contact form -->
-
-
-    
+   
 	<footer>
 
-        <h4>Maud Sadoc, digital student</h4>
+        <h4>Maud Sadoc, web designer</h4>
         <h5>Excellence in digital creation</h5>
 
         <ul class="footer-links">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../portfolio/index.html">Portfolio</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
         </ul>
         
         <ul class="footer-icons">
@@ -169,10 +159,9 @@
             
          </ul>                
 
-        </footer>
+    </footer>
 
-	    <script src="../assets/js/menus.js"></script>        
-
+    <script src="../assets/js/menus.js"></script>   
 
 </body>
 </html>
