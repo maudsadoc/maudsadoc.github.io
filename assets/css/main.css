@@ -2,7 +2,7 @@
 /* Default font and colours */
 h1, h2, h3 { color: #fff}
 p, li { color: #fff }
-.bg-light-slate { background-color: #515e7b }
+.bg-light-slate { background-color: #F47983 }
 .bg-pastel-grey { background-color: #edf5f1 }
 
 
@@ -61,14 +61,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color:#34cdf1;
+    border-color:#DB5A6B;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #DB5A6B;
 } 
  
 a.button-solid:hover, .button-solid:active {
-    border-color:#183153;
-    background-color: #183153;
+    border-color:#C93756;
+    background-color: #C93756;
     color: #fff
 }
  
@@ -105,8 +105,8 @@ a.fancy-link:hover, a.fancy-link:active {
 }
 
 a.fancy-link:link, a.fancy-link:visited { 
-    color: #34cdf1; 
-    border-bottom-color:#34cdf1
+    color: #C93756; 
+    border-bottom-color:#C93756
 }
 
 a.fancy-link:hover, a.fancy-link:active { 
@@ -209,7 +209,7 @@ img.image-circle {
 }
 
 .container-flexbox .item-1 h2 {
-    color: #34cdf1;
+    color: #DB5A6B;
     line-height: 1.2; margin-bottom: 20px;
     letter-spacing:-1px;
     font-weight: 600;
@@ -237,7 +237,7 @@ img.image-circle {
 .container-flexbox .item-2 h3,
 .container-flexbox .item-3 h3 {
     line-height: 1.2; margin-bottom: 12px;
-    color:#34cdf1
+    color:#DB5A6B
 }
 
 /* Centre-align text within two, three and four columns on mobiles */
@@ -273,7 +273,7 @@ img.image-circle {
 /* All screens */
 .container-contact-form { 
 	text-align: center; 
-	background-color: #183153
+	background-color: #DB5A6B
 }
 
 /* Desktop */
@@ -358,7 +358,7 @@ img.image-circle {
 
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
-	border: 2px solid rgb(49,145,131);
+	border: 2px solid #F47983;
 	background-color: #f0f0f0;
 	border-radius: 5px;
 }
@@ -377,16 +377,16 @@ img.image-circle {
 	font-weight: bold;
     padding: 18px 28px;
     font-size: 18px;
-    border-color:#34cdf1;
+    border-color:#F47983;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #F47983;
 }
 
 
 #contact-form #btn-submit:hover, 
 #contact-form #btn-submit:active { 
-    background-color: red;
-    color: #fff
+    background-color: white;
+    color: #000
 }
 
 #contact-form #btn-submit i.fas {

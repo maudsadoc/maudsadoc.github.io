@@ -266,7 +266,7 @@
 
 /* background colour */
 .menu-dark { 
-	background-color: #183153; 
+	background-color: #DB5A6B; 
 	transition: all .5s ease-in-out
 }
 
@@ -277,7 +277,7 @@
 /* cta button */
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
-    background-color: #34cdf1;
+    background-color: #F47983;
     color: #fff;
     border-color:#fff
 }
@@ -285,7 +285,7 @@
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #34cdf1;
+    color: #DB5A6B;
     border-color:#fff
 }
 
@@ -313,20 +313,21 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-dark.flyout-menu h5 a:hover, 
 .menu-dark.flyout-menu h5 a:active {
-    border-bottom-color: #34cdf1;
+    border-bottom-color: #F47983;
 }
 
 /* profile image border colour */
-.menu-dark.flyout-menu div.fly-out-profile-box img { border-color: #34cdf1 }
+.menu-dark.flyout-menu div.fly-out-profile-box img { border-color: #F47983}
 
 /* contact icons */
 .menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
 
 .menu-dark ul li .btn-cta:any-link {
-    border-color: #183153 !important;
-    background-image: linear-gradient(to right,#3ec7e0,#526bf4); color: #fff !important;   
+    border-color: #DB5A6B !important;
+    background-image: linear-gradient(to right,#F47983,#C93756); color: #fff !important;   
 } 
 
 .menu-dark ul li :is(.btn-cta:focus, .btn-cta:hover, .btn-cta:active)  {
-    background-image: linear-gradient(90deg,#e052a0,#f15c41); color: #fff;
+    background-image: linear-gradient(90deg,#C93756,#F47983); color: #fff;
 } 
+
